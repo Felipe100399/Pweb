@@ -1,0 +1,28 @@
+.flex-container {
+  display: flex;   /* Activa Flexbox en el contenedor */
+  justify-content: space-around; /* Distribuye los ítems equitativamente en el eje principal */
+  align-items: center; /* Centra verticalmente en el eje secundario */
+  height: 150px;   /* Altura del contenedor */
+  background: rgb(165, 109, 255); /* Color de fondo */
+}
+.item {
+  background: rgb(102, 0, 143); /* Color de fondo de cada ítem */
+  color: rgb(255, 255, 255); /* Texto blanco */
+  padding: 65px; /* Espaciado interno */
+  border-radius: 20px; /* Bordes redondeados */
+}
+.grid-container {
+  display: grid; /* Activa Grid en el contenedor */
+  grid-template-columns: repeat(3, 1fr); /* Crea 2 columnas iguales */
+  gap: 15px; /* Espacio entre elementos */
+  background: lightyellow; /* Fondo del grid */
+  padding: 10px; /* Espaciado interno */
+}
+.item2 {
+  background: tomato; /* Fondo rojo */
+  color: rgb(255, 255, 255); /* Texto blanco */
+  padding: 30px; /* Espaciado interno */
+  text-align: center; /* Centrar texto */
+  border-radius: 5px; /* Bordes redondeados */
+ 
+}

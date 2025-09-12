@@ -1,0 +1,19 @@
+:root {
+  --color-primario: #0019fd;
+  --espaciado: 1rem;
+}
+body {
+  color: var(--color-primario);
+  margin: var(--espaciado);
+}
+.titulo-fijo {
+  font-size: 20px;   /* Siempre 20 píxeles */
+  margin: 50px;      /* Siempre 50 píxeles */
+}
+.titulo-relativo {
+    font-size :2 rem; /*dos veces el tamaño de la fuente*/
+    margin: 5%; /*5% del ancho del contenedor*/
+}
+
+
+
